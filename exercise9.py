@@ -12,7 +12,7 @@
 # basicCalculator(10, 5, 'divide') should return 2.
 #
 # Define the function and then call it below.
-def basicCalculator(a, b, operation):
+def basic_calculator(a, b, operation):
     if operation == 'add':
         return a + b
     elif operation == 'subtract':
@@ -25,7 +25,7 @@ def basicCalculator(a, b, operation):
         return 'Invalid operation'
 
 
-print('Exercise 9 Result:', basicCalculator(10, 5, "subtract"))
-print('Exercise 9 Result:', basicCalculator(10, 5, 'add'))
-print('Exercise 9 Result:', basicCalculator(10, 5, 'multiply'))
-print('Exercise 9 Result:', basicCalculator(10, 5, 'divide'))
+print('Exercise 9 Result:', basic_calculator(10, 5, "subtract"))
+print('Exercise 9 Result:', basic_calculator(10, 5, 'add'))
+print('Exercise 9 Result:', basic_calculator(10, 5, 'multiply'))
+print('Exercise 9 Result:', basic_calculator(10, 5, 'divide'))
